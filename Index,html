@@ -1,0 +1,39 @@
+Vedanth Subramanian
+3:54 PM (0 minutes ago)
+to me
+
+<!DOCTYPE html>
+
+<html>
+
+<body style="background-color:yellow;text-align:center;">
+
+<h1 style="color:blue;">Children Shows</h1>
+
+<h1 style="color:dodgerblue;font-family:Lucida Handwriting;">Spongebob Square Pants</h1>
+
+<h2>Characters</h2>
+
+<p style="color:pink;text-align:right;"id="Spongebob">Spongebob Square Pants</p>
+
+<button style="color:lime;background-color:red;"type="button" onclick="document.getElementById('Spongebob').innerHTML='Spongebob Squarepants is a talking
+square sponge who lives in a pineapple under the sea. His relentless cheerfulness gets on the nerves of his grumpy neighbor,
+Squidward Tentacles. Spongebob works as a fry cook at the Krusty Krab, owned by the kind but greedy Mr. Krabs.'">
+Change name to description of the character</button>
+
+<button style="color:lime;background-color:red;"type="button" onclick="document.getElementById('Spongebob').innerHTML='Spongebob Square Pants'">
+Change description to name of character</button>
+
+<p style="color;dodgerblue;text-align:left;"id="Patrick">Patrick</p>
+
+<button style="color:purple;background-color:silver;"type="button" onclick="document.getElementById('Patrick').innerHTML=
+'Patrick is a pink, lazy, overweight, OCD, starfish who is SpongeBob's best friend and neighbor.
+He lives under a rock and his most prominent character trait is his lack of intelligence, which differs from one episode to another.'">
+Change name to description of the character</button>
+
+<button style="color:purple;background-color:silver;"type="button" onclick="document.getElementById('Patrick').innerHTML='Spongebob Square Pants'">
+Change description to name of character</button>
+
+</body>
+
+</html>
