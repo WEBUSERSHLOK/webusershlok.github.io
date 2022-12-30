@@ -80,6 +80,23 @@ body {
   color: white;
   transform: rotateY(180deg);
 }
+.magicmom {
+  margin: 2rem;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
