@@ -97,6 +97,9 @@ body {
   width: 100%;
   height: 100%;
 }
+.checked {
+  color: orange;
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
