@@ -1,137 +1,200 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Asset/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="Asset/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Asset/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Asset/styles.css">
 </head>
-<body style="background-color:lime;">
-<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  topnav">
-<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 topnav"> 
-<div class=" topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="WhereToWarch.html">Where to Watch</a>
-  <a href="MagicMoments.html">Works Cited</a>
-  <a href="About.html">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-</div>
-</div>
+
+<body style="background-color:cyan;background-image: linear-gradient(to right, cyan , ORANGE)">
+  <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  topnav">
+    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 topnav">
+      <div class=" topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="WhereToWarch.html">Where to Watch</a>
+        <a href="MagicMoments.html">Works Cited</a>
+        <a href="About.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+  </div>
 
 
+  <h1 class="m-7 text-center">Adventure in the Jungle </h1>
 
-
-
-
-
-
- 
-    
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <h2>Overview</h2><br>
+    <div>
+      <p class="h3">Adventure in the Jungle is an exhilarating television series about outgoing children
+        who love to venture deep into the jungle. The adventurous children live in the center of the vast wilderness
+        and love to go to different places in the jungle. Watch the main character, Ace, leads the way as his friends,
+        Geno Purdy, Cheetah, Plastic Man, Banana Kid, 113, and Gary the 18th, follow along. Help Ace and his friends
+        solve problems and get unstuck from sticky situations. Nothing is better than joining the legendary team
+        (other than tasting Mrs. Partley’s epic cookies!) Watch now to be a part of the team and be a terrific
+        explorer in the expansive jungle! Good luck!
+      </p>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <video width="600" height="400" controls autoplay>
+      <source src="Asset/Adventure_in_the_Jungle.mp4" type="video/mp4">
+    </video>
+  </div>
   
+
   
-    <h1 style="text-align:center;font-family:Cursive;font-size:75px;">Adventure in the Jungle<h1><br>
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <br>
+    <hr style="height:2px; width:80%;   border-top: 5px dotted green;  border-radius: 5px;">
+   
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+      <h1>Time For Some Adventure in the
+        Jungle Trivia!</h1>
+      <br>
+    </div>
 
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <h2 style="text-align:center;font-family:Fantasy;font-size:35px;">Overview</h2><br><br>
-                                                                                             
-      <div style="padding-left:16px">
-      <p style="font-size:20px;">Adventure in the Jungle is an exhilarating television series about outgoing children who love to venture deep into the jungle. The adventurous children live in the center of the vast wilderness and love to go to different places in the jungle. Watch the main character, Ace, leads the way as his friends, Geno Purdy, Cheetah, Plastic Man, Banana Kid, 113, and Gary the 18th, follow along. Help Ace and his friends solve problems and get unstuck from sticky situations. Nothing is better than joining the legendary team (other than tasting Mrs. Partley’s epic cookies!) Watch now to be a part of the team and be a terrific explorer in the expansive jungle! Good luck!</p>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h4 style="text-align:center;">Question 1: Who does Geno Purdy share a cabin with?</h4>
+      <p id="Q1"></p>
 
-        </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <video width="320" height="240" controls>
-  <source src="Asset/Adventure_in_the_Jungle.mp4" type="video/mp4">
-
-</video>
-                </div>
-
-            <div style="text-align:center;"><h1 style="font-family:Cursive;color:blue;text-align:center;font-size:45px;">Time For Some Adventure in the Jungle Trivia!</h1>
-<br>
-        </div>
-<h4 style="text-align:center;">Question 1: Who does Geno Purdy share a cabin with?</h4>
-  <p style="color:red;text-align:center;"id="Q1"></p>
-        
-<p style="color:green;"id="Q1.2"></p>
-<div style = "text-align: center;">
-<button style="background-color:dodgerblue;"type="button" onclick="document.getElementById('Q1').innerHTML='Incorrect, the correst anwser is Ace'">Jonathan</button>
+      <p style="color:green;" id="Q1.2"></p>
+      <div style="text-align: center;">
+        <button class="btn btn-primary" type="button"
+          onclick="document.getElementById('Q1').innerHTML='Incorrect, the correst anwser is Ace'">Jonathan</button>
 
 
-<button style="background-color:dodgerblue;text-align:center;"type="button" onclick="document.getElementById('Q1').innerHTML='Incorrect, the correst anwser is Ace'">Tommy</button>
+        <button class="btn btn-primary" type="button"
+          onclick="document.getElementById('Q1').innerHTML='Incorrect, the correst anwser is Ace'">Tommy</button>
 
-<button style="background-color:dodgerblue;text-align:center;"type="button" onclick="document.getElementById('Q1.2').innerHTML='Correct!'">Ace</button>
+        <button class="btn btn-primary" type="button"
+          onclick="document.getElementById('Q1.2').innerHTML='Correct!'">Ace</button>
 
-<button style="background-color:dodgerblue;"type="button" onclick="document.getElementById('Q1').innerHTML='Incorrect, the correst anwser is Ace'">Sandy</button>
-</div>
-<h4>Question 2:Where does Plastic Man live?</h4>
+        <button class="btn btn-primary" type="button"
+          onclick="document.getElementById('Q1').innerHTML='Incorrect, the correst anwser is Ace'">Sandy</button>
+      </div>
+      <br>
+    </div>
 
-<p style="color:red;text-align:center;"id="Q2"></p>
-        
-<p style="color:green;text-align:center;"id="Q2.2"></p>
+    <hr style="height:2px; width:80%; border-width:0; color:brown; background-color:brown">
 
-<button style="background-color:red;text-align:center;"type="button" onclick="document.getElementById('Q2').innerHTML='Incorrect, the anwser is the center of the jungle'">In an apartment at the center of town</button>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h4 style="text-align:center;">Question 2:Where does Plastic Man live?</h4>
 
-<button style="background-color:red;text-align:center;"type="button" onclick="document.getElementById('Q2.2').innerHTML='Correct!'">Center of the jungle</button>
+      <p id="Q2"></p>
 
-<button style="background-color:red;text-align:center;"type="button" onclick="document.getElementById('Q2').innerHTML='Incorrect, the anwser is the center of the jungle'">At the edge of town</button>
+      <p style="color:green;" id="Q2.2"></p>
+      <div style="text-align: center;">
+        <button class="btn btn-secondary" type="button"
+          onclick="document.getElementById('Q2').innerHTML='Incorrect, the anwser is the center of the jungle'">In an
+          apartment at the center of town</button>
 
-<button style="background-color:red;text-align:center;"type="button" onclick="document.getElementById('Q2').innerHTML='Incorrect, the anwser is the center of the jungle'">New York City</button>
+        <button class="btn btn-secondary" type="button"
+          onclick="document.getElementById('Q2.2').innerHTML='Correct!'">Center of the jungle</button>
 
-<h4 style="text-align:center;">Question 3:Where does 113 want to move to?</h4>
+        <button class="btn btn-secondary" type="button"
+          onclick="document.getElementById('Q2').innerHTML='Incorrect, the anwser is the center of the jungle'">At the
+          edge of town</button>
 
-<p style="color:red;text-align:center;"id="Q3"></p>
-        
-<p style="color:green;text-align:center;"id="Q3.2"></p>
+        <button class="btn btn-secondary" type="button"
+          onclick="document.getElementById('Q2').innerHTML='Incorrect, the anwser is the center of the jungle'">New York
+          City</button>
+      </div>
 
-<button style="background-color:silver;text-align:center;"type="button" onclick="document.getElementById('Q3').innerHTML='Incorrect, the anwser is Los Angeles'">Denver</button>
+      <br>
+    </div>
 
-<button style="background-color:silver;text-align:center;"type="button" onclick="document.getElementById('Q3').innerHTML='Incorrect, the anwser is Los Angeles'">New York City</button>
+    <hr style="height:2px; width:80%; border-width:0; color:brown; background-color:brown">
 
-<button style="background-color:silver;text-align:center;"type="button" onclick="document.getElementById('Q3.2').innerHTML='Correct!'">Los Angeles</button>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-<button style="background-color:silver;text-align:center;"type="button" onclick="document.getElementById('Q3').innerHTML='Incorrect, the anwser is Los Angeles'">Boston</button>
+      <h4 style="text-align:center;">Question 3:Where does 113 want to move to?</h4>
 
-<h4 style="text-align:center;">Question 4:Where does Gary the 18th work?</h4>
-
-<p style="color:red;text-align:center;"id="Q4"></p>
-        
-<p style="color:green;text-align:center;"id="Q4.2"></p>
-
-<button style="background-color:yellow;text-align:center;"type="button" onclick="document.getElementById('Q4.2').innerHTML='Correct!'">Jungle Ice cream shop</button>
-
-<button style="background-color:yellow;text-align:center;"type="button" onclick="document.getElementById('Q4').innerHTML='Incorrect, the anwser is Jungle Ice cream shop'">Subway</button>
-
-<button style="background-color:yellow;text-align:center;"type="button" onclick="document.getElementById('Q4').innerHTML='Incorrect, the anwser is Jungle Ice cream shop'">Flintville clothing store</button>
-
-<button style="background-color:yellow;text-align:center;"type="button" onclick="document.getElementById('Q4').innerHTML='Incorrect, the anwser is Jungle Ice cream shop'">Mc Donalds</button>
-
-<h4 style="text-align:center;">Question 5:What is Mrs. Partley's job?</h4>
-
-<p style="color:red;text-align:center;"id="Q5"></p>
-        
-<p style="color:green;text-align:center;"id="Q5.2"></p>
-
-<button style="background-color:lime;text-align:center;"type="button" onclick="document.getElementById('Q5').innerHTML='Incorrect, the anwser is Teacher'">Baker</button>
-
-<button style="background-color:lime;text-align:center;"type="button" onclick="document.getElementById('Q5').innerHTML='Incorrect, the anwser is Teacher'">Engineer</button>
-
-<button style="background-color:lime;text-align:center;"type="button" onclick="document.getElementById('Q5').innerHTML='Incorrect, the anwser is Teacher'">Doctor</button>
-
-<button style="background-color:lime;text-align:center;"type="button" onclick="document.getElementById('Q5.2').innerHTML='Correct!'">Teacher</button> 
-        
-</div>
+      <p  id="Q3"></p>
   
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+      <p style="color:green;" id="Q3.2"></p>
+      <div style="text-align: center;">
+      <button class="btn btn-success" type="button"
+        onclick="document.getElementById('Q3').innerHTML='Incorrect, the anwser is Los Angeles'">Denver</button>
+  
+      <button class="btn btn-success" type="button"
+        onclick="document.getElementById('Q3').innerHTML='Incorrect, the anwser is Los Angeles'">New York City</button>
+  
+      <button class="btn btn-success" type="button"
+        onclick="document.getElementById('Q3.2').innerHTML='Correct!'">Los Angeles</button>
+  
+      <button class="btn btn-success" type="button"
+        onclick="document.getElementById('Q3').innerHTML='Incorrect, the anwser is Los Angeles'">Boston</button>
+      </div>
+      <br>
+    </div>
+
+    <hr style="height:2px; width:80%; border-width:0; color:brown; background-color:brown">
+
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h4 style="text-align:center;">Question 4:Where does Gary the 18th work?</h4>
+
+      <p  id="Q4"></p>
+  
+      <p style="color:green;" id="Q4.2"></p>
+      <div style="text-align: center;">
+      <button class="btn btn-warning" type="button"
+        onclick="document.getElementById('Q4.2').innerHTML='Correct!'">Jungle Ice cream shop</button>
+  
+      <button class="btn btn-warning" type="button"
+        onclick="document.getElementById('Q4').innerHTML='Incorrect, the anwser is Jungle Ice cream shop'">Subway</button>
+  
+      <button class="btn btn-warning" type="button"
+        onclick="document.getElementById('Q4').innerHTML='Incorrect, the anwser is Jungle Ice cream shop'">Flintville
+        clothing store</button>
+  
+      <button class="btn btn-warning" type="button"
+        onclick="document.getElementById('Q4').innerHTML='Incorrect, the anwser is Jungle Ice cream shop'">Mc
+        Donalds</button>
+      </div>
+      <br>
+    </div>
+
+    <hr style="height:2px; width:80%; border-width:0; color:brown; background-color:brown">
+
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h4 style="text-align:center;">Question 5:What is Mrs. Partley's job?</h4>
+
+      <p  id="Q5"></p>
+  
+      <p style="color:green;" id="Q5.2"></p>
+      <div style="text-align: center;">
+      <button class="btn btn-info" type="button"
+        onclick="document.getElementById('Q5').innerHTML='Incorrect, the anwser is Teacher'">Baker</button>
+  
+      <button class="btn btn-info" type="button"
+        onclick="document.getElementById('Q5').innerHTML='Incorrect, the anwser is Teacher'">Engineer</button>
+  
+      <button class="btn btn-info"" type="button"
+        onclick="document.getElementById('Q5').innerHTML='Incorrect, the anwser is Teacher'">Doctor</button>
+  
+      <button class="btn btn-info" type="button"
+        onclick="document.getElementById('Q5.2').innerHTML='Correct!'">Teacher</button>
+      </div>
+      <br>
+    </div>
+
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 
 </body>
+
 </html>
