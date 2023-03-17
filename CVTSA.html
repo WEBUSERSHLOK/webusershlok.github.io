@@ -62,7 +62,7 @@
     <label for="subject">What is your question?</label>
     <textarea id="subject" name="subject" placeholder="My question is..." style="height:150px"></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="submit" onClick="Submit()">
   </form>
 </div>
 	</div>
@@ -79,6 +79,10 @@
         x.className = "topnav";
       }
     }
+	  
+	  function Submit() {
+	  window.location.href="Index.html"
+	  }
   </script>
 
 </body>
