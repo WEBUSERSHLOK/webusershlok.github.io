@@ -79,6 +79,22 @@
 </div>
 
 </div>
+                                   <div> <h2>Questions for broadcasting</h2>
+
+<button class="accordion">What time will the show run?</button>
+<div class="panel">
+  <p>Weekly at 6 PM Eastern, 5 PM Central, 4 PM Mountain Daylight, 3 PM Mountain Standard, 2 PM Pacific, 1 PM Alaska, and 12 PM Hawaii-Aleutian on Wednesdays.  </p>
+</div>
+
+<button class="accordion">What happens if you miss the broadcrasting?</button>
+<div class="panel">
+  <p>If you miss the time on Wednesdays we have another broadcrast at 9 PM Eastern on Fridays. We will also post the episode for one hour randomly in a week for people who missed out.</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>                          
 <br><br><br>
 
   <div style="position: fixed; left: 0; bottom: 0; width: 100%; background-color:blanchedalmond; color: black; text-align: center;">
@@ -93,7 +109,24 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>                          
 </script>
+                          
 
 </body>
 </html>
