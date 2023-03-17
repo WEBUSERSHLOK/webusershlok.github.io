@@ -100,7 +100,27 @@ body {
 .checked {
   color: orange;
 }
+.accordion {
+  background-color: #9C331C;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
 
+
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #68ACCA;
+  overflow: hidden;
+}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
