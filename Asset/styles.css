@@ -147,7 +147,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color:cyan;background-image: linear-gradient(to right, cyan , ORANGE)
+  background-color:yellow;background-image: linear-gradient(to right, yellow , green)
   ;
   padding: 20px;
 }
