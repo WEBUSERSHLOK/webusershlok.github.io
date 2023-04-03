@@ -1,120 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="Asset/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="Asset/styles.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2QP5SLMNY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-F2QP5SLMNY");
+  </script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="Pwei1mRcsHqayrxMdO7CcDUPpG9RdljfhE9yBY6e5TI" />
+  <title>Home - Imagine Nation</title>
+
+  <link rel="icon" type="image/x-icon" href="/Images/Logo 2.PNG" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="https://use.typekit.net/xbo6rbk.css" />
+  <script src="index.js"></script>
 </head>
 
-<body style="background-color:cyan;background-image: linear-gradient(to right, cyan , ORANGE)">
-  <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  topnav" style="position: fixed; top: 0; z-index: 3;">
-        <a href="#home" class="logo" style="font-family:cursive"><i class="fa fa-tree fa-lg" aria-hidden="true"> TtT</i></a>
-    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 topnav">
-      <div class=" topnav" id="myTopnav">
-    
-        <a href="#home" class="active">Home</a>
-        <a href="WhereToWarch.html">Where to Watch</a>
-        <a href="About.html">Characters</a>
-        <a href="CVTSA.html">CVTSA</a>
-        <a href="Games.html">Games</a>
-        <a href="MagicMoments.html">Works Cited</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+<body id="home-body">
+  <nav>
+    <div class="dropdown" id="mobile-nav">
+      <button class="menu-btn">
+        <img id="menu-img" src="images/menu-lines.jpg" />
+      </button>
+      <div class="menu-content">
+        <a class="nav-pages-white" href="index.html">HOME</a>
+        <a class="nav-pages-white" href="about.html">ABOUT</a>
+        <a class="nav-pages-white" href="parents.html">FOR PARENTS</a>
+        <a class="nav-pages-white" href="games.html">GAMES </a>
+        <a class="nav-pages-white" href="credits.html">CREDITS</a>
       </div>
     </div>
-  </div>
-
-<br>
-<br>
-<br>
-<h1 class="m-7 text-center">Taco the Toucan </h1>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-
-  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style:"background-color:cyan;background-image: linear-gradient(to right, cyan , ORANGE)">
-    <h2>Overview</h2><br>
-    <div>
-      <p class="h3">Taco the Toucan is a TV show rated Y about a young toucan named Taco.
-         This show is based on Taco’s life and how he solves his problems in his life.
-          With his friend, Hugo the hummingbird, he learns new things every day, from sharing to caring about others.
-          Taco lives in the Amazon rainforest near the Amazon River in Brazil, with his little brother Thiago and his Mom Tara and Dad Theo. 
-           He goes to Amazon Rainforest School with Hugo.
-            At school, he learns about simple things, like math, science, and English.
-            Hope you have fun watching Taco the Toucan and learning from it!
-      </p>
+    <div class="web-nav">
+      <a href="index.html" class="nav-link home-nav-link">
+        <li class="nav-li">HOME</li>
+      </a>
+      <a href="about.html" class="nav-link">
+        <li class="nav-li">
+          <img class="nav-images" src="images/about_logo.png" height="40vw" width="40vw" />About
+        </li>
+      </a>
+      <a href="parents.html" class="nav-link">
+        <li class="nav-li">
+          <img class="nav-images" src="images/parents_logo.png" height="40vw" width="40vw" />For Parents
+        </li>
+      </a>
+      <a href="games.html" class="nav-link">
+        <li class="nav-li">
+          <img class="nav-images" src="images/game_logo.png" height="40vw" width="40vw" />Games
+        </li>
+      </a>
+      <a href="credits.html" class="nav-link">
+        <li class="nav-li">
+          <img class="nav-images" src="images/credits_logo.png" height="40vw" width="40vw" />Credits
+        </li>
+      </a>
     </div>
-  </div>
-  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <video width="600" height="400" style="z-index: 1;" controls>
-      <source src="Asset/Adventure_in_the_Jungle.mp4" type="video/mp4">
-    </video>
-  </div>
-  
+  </nav>
+  <div class="home-hero">
+    <img class="hero-image" src="images/home-hero-withtext.png" />
 
-   <hr style="height:2px; width:80%;   border-top: 5px dotted green;  border-radius: 5px;">
-  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  style="background-color:pink;background-image: linear-gradient(to right, yellow , GREEN); padding-bottom:32px";>
-   
-     <div >
-
-          <h1 class="m-7 text-center">What is the purpose of Taco the Toucan?</h1>
-    <div class="col-lg-6">
-    <p class="h3">The purpose of the show is to entertain kids, while doing it in a way where they can learn new things and benefit out of it.
-      This show teaches kids learn important skills, which will help in the future. The show also expresses the character's emotions which helps a child develop.
-                                                              
-  </div>
-      <div class="col-lg-6">
-      <img src="Asset/img/jungle1.jpg" height="250" width="500">
-       </div>
-      <br>
-                                                                                        <br>
-                                                                                        <br>
-                                                                                        <br>
-                                                                                        
-
-                                                                                        
-                                                                                    
-                                                                                                                                                         
-         <br>
-       <br>
-       <br>
-    </div>
-  </div>
-    <br>
-    <hr style="height:2px; width:80%;   border-top: 5px dotted green;  border-radius: 5px;">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color:cyan;background-image: linear-gradient(to right, cyan , ORANGE); padding-bottom:50px";>
-      <div>
-        <h1 class="m-7 text-center">Who can watch this show?</h1>
-         <div class="col-lg-6">
-    <p class="h3">This show is mainly for kids over 3 and below 8. But, anyone can watch Taco the Toucan because it is for all ages. This age is normal because this age group is appropiate and makes sense to the viewers. This also shows many cool things which helps enjoy children at the ages 3 to 8.
-       
-    
+    <section>
+      <div class="flex-container intro-flex-container">
+        <div class="intro-image-div">
+          <img class="flex-image" src="images/Logo 4.png" />
         </div>
-         <div class="col-lg-6">
-      <img src="Asset/img/jungle2.jpg" height="250" width="500">
-       </div>
+        <p class="intro-para">
+          Welcome to the world of Imagine Nation! Here, your little ones can
+          join us on exciting adventures and learn valuable skills along the
+          way.
+        </p>
       </div>
-      
-           <div style="position: fixed; left: 0; bottom: 0; width: 100%; background-color:blanchedalmond; color: black; text-align: center;">
-    <p>CVTSA All Rights Reserved</p>
-  </div>
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-  
-  </script>
+      <div class="flex-container rating-flex-container">
+        <p class="rating-para">
+          Rated TV-Y, our show is perfect for kids of all ages and is designed
+          to be educational and entertaining. We'll
+          teach your children important lessons about kindness, cooperation, and
+          the world around them.
+          </br>
+          <a class="about-link" href="about.html">
+            <button class="about-button">Meet The Crew!</button>
+          </a>
+        </p>
 
+        <!-- <div class="rating-image-div">
+          <img
+            class="flex-image"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/White_TV-Y_icon.png/619px-White_TV-Y_icon.png?20140626063752"
+          />
+        </div> -->
+      </div>
+    </section>
+    <section>
+      <!-- <div class="slideshow-div">
+        <div id="slideshow">
+          <div class="slide-animation flex-slide">
+            <div class="slide">
+              <img
+                class="slide-img"
+                src="https://img.freepik.com/premium-vector/cute-funny-avocado-character_92289-2278.jpg?w=2000"
+              />
+            </div>
+            <div class="slide">
+              <img
+                class="slide-img"
+                src="https://img.freepik.com/premium-vector/cute-funny-avocado-character_92289-2278.jpg?w=2000"
+              />
+            </div>
+            <div class="slide">
+              <img
+                class="slide-img"
+                src="https://img.freepik.com/premium-vector/cute-funny-avocado-character_92289-2278.jpg?w=2000"
+              />
+            </div>
+            <div class="slide">
+              <img
+                class="slide-img"
+                src="https://img.freepik.com/premium-vector/cute-funny-avocado-character_92289-2278.jpg?w=2000"
+              />
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="episode-div">
+        <p class="episode-para">
+          Each episode is packed with catchy songs, lovable characters, and
+          plenty of laughter. Your children will love spending time with our
+          friendly cast and will be begging to watch more. But don't just take
+          our word for it. Tune in to Imagine Nation every weekday on ABC123 at 3PM and see for yourself why
+          parents and children alike are raving about our show. We can't wait to
+          see you there!
+        </p>
+      </div>
+    </section>
 </body>
 
 </html>
