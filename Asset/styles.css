@@ -71,7 +71,7 @@ body {
 
 .flip-card-front {
   background-color: #fff;
-  background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+  background-image: rgba(255, 255, 0, 0.3);
   color: black;
 }
 
@@ -147,7 +147,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color:yellow;background-image: linear-gradient(to right, yellow , green)
+  background-color:rgba(255, 255, 0, 0.3);
   ;
   padding: 20px;
 }
